@@ -1,5 +1,9 @@
-insomnia cookies
-menu[
+{"truck":"insomnia cookies",
+"truck_description":""
+"location":"",
+"truck_image":"",
+"truck_ratings":[1,2,3,3,5,4],
+"menu":[
 	{
 		"item":"chocolate chip",
 		"price":3,
@@ -21,10 +25,14 @@ menu[
 		"image":"",
 		"rating":[1,2,3,4,5]
 	}
-]
+]},
 
-cheese e wagon
-menu[
+{"truck":"cheese e wagon",
+"truck_description":""
+"location":"",
+"truck_image":"",
+"truck_ratings":[1,2,3,3,5,4],
+"menu":[
 	{
 		"item":"Cheese Burger",
 		"price":7,
@@ -46,10 +54,14 @@ menu[
 		"image":"",
 		"rating":[1,2,3,4,5]
 	}
-]
+]},
 
-schmear it
-menu[
+{"truck":"schmear it",
+"truck_description":""
+"location":"",
+"truck_image":"",
+"truck_ratings":[1,2,3,3,5,4],
+"menu":[
 	{
 		"item":"plain bagel w/ cream cheese",
 		"price":2,
@@ -71,4 +83,4 @@ menu[
 		"image":"",
 		"rating":[1,2,3,4,5]
 	}
-]
+]}
