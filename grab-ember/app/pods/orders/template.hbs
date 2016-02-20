@@ -1,0 +1,16 @@
+{{#each model as |order|}}
+    {{#link-to "order" order.id}}
+        <div>
+            <h1>Customer: {{order.customer}}</h1>
+            <p>Order Name: {{order.order_id}}</p>
+            <p>Order Status: {{order_status}}</p>
+            {{#each order.items as |item|}}
+                <p>Item Name: {{item.item}}</p>
+                <p>Item Quantity: {{item.qty}}</p>
+                <p>Item Price: {{item.price}}</p>
+                <p>Item Comments: {{item.comments}}</p>
+            {{/each}}
+        </div>
+  {{/link-to}}
+{{/each}}
+

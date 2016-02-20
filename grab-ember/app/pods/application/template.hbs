@@ -1,0 +1,33 @@
+<nav class="global-nav">
+  <a class="logo-link" href="/">
+    <object class="global-nav__big-logo"
+        data="/assets/images/grab-logo.svg"
+        type="image/svg+xml">
+      <img class="global-nav__big-logo" src="/assets/images/grab-logo.png">
+    </object>
+  </a>
+  <a class="logo-link" href="/">
+    <object class="global-nav__small-logo"
+        data=""
+        type="image/svg+xml">
+      <img class="global-nav__small-logo" src="">
+    </object>
+  </a>
+    {{#link-to "orders"}}
+      <a class="global-nav__tab">Orders</a>
+    {{/link-to}}
+  <a class="global-nav__tab global-nav__login" href="/">Logout</a>
+  <span id="js-toggle-side-on" class="global-nav__tab global-nav__side-toggle">
+    <i class="glyphicon glyphicon-menu-hamburger"></i>
+  </span>
+</nav>
+<aside id="js-sidebar" class="global-nav__side-nav">
+  <span id="js-toggle-side-off" class="global-nav__mobile-cancel"></span>
+  {{#link-to "orders"}}
+    <a class="global-nav__mobile-tab">Orders</a>
+  {{/link-to}}
+  <a class="global-nav__mobile-tab" href="/">Logout</a>
+</aside>
+<div id="js-nav-overlay" class="global-nav-overlay"></div>
+
+{{outlet}}
