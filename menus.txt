@@ -1,0 +1,74 @@
+insomnia cookies
+menu[
+	{
+		"item":"chocolate chip",
+		"price":3,
+		"description":"",
+		"image":"",
+		"rating":[1,2,3,4,5]
+	},
+	{
+		"item":"macadamia nut",
+		"price":4,
+		"description":"",
+		"image":"",
+		"rating":[1,2,3,4,5]
+	},
+	{
+		"item":"sugar cookie",
+		"price":2,
+		"description":"",
+		"image":"",
+		"rating":[1,2,3,4,5]
+	}
+]
+
+cheese e wagon
+menu[
+	{
+		"item":"Cheese Burger",
+		"price":7,
+		"description":"",
+		"image":"",
+		"rating":[1,2,3,4,5]
+	},
+	{	
+		"item":"grilled cheese",
+		"price":6,
+		"description":"",
+		"image":"",
+		"rating":[1,2,3,4,5]
+	},
+	{	
+		"item":"mac'n'cheese",
+		"price":3,
+		"description":"",
+		"image":"",
+		"rating":[1,2,3,4,5]
+	}
+]
+
+schmear it
+menu[
+	{
+		"item":"plain bagel w/ cream cheese",
+		"price":2,
+		"description":"",
+		"image":"",
+		"rating":[1,2,3,4,5]
+	},
+	{
+		"item":"onion bagel w/ peanut butter and banana",
+		"price":4,
+		"description":"",
+		"image":"",
+		"rating":[1,2,3,4,5]
+	},
+	{
+		"item":"Cinnamon Raisin bagel w/ hummus",
+		"price":,
+		"description":"",
+		"image":"",
+		"rating":[1,2,3,4,5]
+	}
+]
